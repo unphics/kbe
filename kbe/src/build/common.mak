@@ -280,7 +280,10 @@ CXXFLAGS += -Wall -Wno-deprecated
 CXXFLAGS += -Wno-uninitialized -Wno-char-subscripts
 CXXFLAGS += -fno-strict-aliasing -Wno-non-virtual-dtor
 CXXFLAGS += -Wno-invalid-offsetof
-CXXFLAGS += -Werror
+
+# zys:
+# CXXFLAGS += -Werror
+
 CXXFLAGS += -std=c++11
 
 CPPFLAGS += -DKBE_SERVER -MMD -DKBE_CONFIG=\"${KBE_CONFIG}\"

@@ -3,8 +3,8 @@
 #include "db_exception.h"
 #include "db_interface_mysql.h"
 #include "db_interface/db_interface.h"
-#include <mysql/mysqld_error.h>
-#include <mysql/errmsg.h>
+#include <mysql/mysql/mysqld_error.h>
+#include <mysql/mysql/errmsg.h>
 
 namespace KBEngine { 
 
