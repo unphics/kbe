@@ -342,8 +342,8 @@
 					（Database auth)
 				-->
 				<auth>  
-					<username> kbe </username>									<!-- Type: String -->
-					<password> pwd123456 </password>							<!-- Type: String -->
+					<username> kbeuser </username>									<!-- Type: String -->
+					<password> kbeuser123 </password>							<!-- Type: String -->
 					
 					<!-- 为true则表示password是加密(rsa)的, 可防止明文配置 
 						(is true, password is RSA)
@@ -354,7 +354,7 @@
 				<!-- 数据库名称 
 					(Database name)
 				-->
-				<databaseName> kbe </databaseName> 								<!-- Type: String -->
+				<databaseName> ikun </databaseName> 								<!-- Type: String -->
 				
 				<!-- 数据库允许的连接数 
 					(Number of connections allowed by the database)
