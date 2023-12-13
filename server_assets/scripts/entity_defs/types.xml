@@ -1,0 +1,35 @@
+<root>
+    <DBID> UINT64 </DBID>
+    <!-- 角色额外数据, 示例没有用到-->
+    <ROLE_DATA> FIXED_DICT
+        <implementedBy> ROLE_DATA, ROLE_DATA_PICKLER </implementedBy>
+        <Properties>
+            <DataType>
+                <Type> INT8 </Type>
+            </DataType>
+            <DataValue>
+                <Type> BLOB </Type>
+            </DataValue>
+        </Properties>
+    </ROLE_DATA>
+
+    <!-- 角色信息, 包括数据库id 名字 角色类型 角色数据 -->
+    <ROLE_INFO> FIXED_DICT
+        <implementedBy> ROLE_INFO, RoleInfoInst </implementedBy>
+        <Properties>
+            <Dbid>
+                <Type> DBID </Type>
+            </Dbid>
+            <Name>
+                <Type> UNICODE </Type>
+                <DataBaseLenth> 256 </DataBaseLenth>
+            </Name>
+            <RoleType>
+                <Type> UINT8 </Type>
+            </RoleType>
+            <DATA>
+                <Type> ROLE_DATA </Type>
+            </DATA>
+        </Properties>
+    </ROLE_INFO>
+</root>

@@ -1432,8 +1432,6 @@ balls_server_assets/_tmp/Unity/ServerErrorDescrs.cs
 balls_server_assets/_tmp/Unity/SmashBase.cs
 kbe/src/lib/entitydef/py_entitydef.cpp
 server_assets/_watchlog.py
-server_assets/gensdk.bat
-server_assets/guiconsole.bat
 server_assets/kbengine_ue4_plugins/KBEnginePlugins.uplugin
 server_assets/kbengine_ue4_plugins/README.md
 server_assets/kbengine_ue4_plugins/Resources/Icon128.png
@@ -1626,10 +1624,7 @@ server_assets/kbengine_unity3d_plugins/SpawnPointBase.cs
 server_assets/kbengine_unity3d_plugins/TestBase.cs
 server_assets/kbengine_unity3d_plugins/TestNoBaseBase.cs
 server_assets/kbengine_unity3d_plugins/TestNoMethodPropertyBase.cs
-server_assets/kill_server.bat
-server_assets/kill_server.sh
 server_assets/print_servers.sh
-server_assets/README.md
 server_assets/res/server/kbengine.xml
 server_assets/res/server/log4cxx_properties/baseapp.properties
 server_assets/res/server/log4cxx_properties/baseappmgr.properties
@@ -1642,8 +1637,6 @@ server_assets/res/server/log4cxx_properties/logger.properties
 server_assets/res/server/log4cxx_properties/loginapp.properties
 server_assets/res/server/log4cxx_properties/machine.properties
 server_assets/res/server/log4cxx_properties/unknown.properties
-server_assets/safe_kill.bat
-server_assets/safe_kill.sh
 server_assets/scripts/base/Account.py
 server_assets/scripts/base/Avatar.py
 server_assets/scripts/base/components/Test.py
@@ -1664,7 +1657,6 @@ server_assets/scripts/base/SpaceDuplicate.py
 server_assets/scripts/base/Spaces.py
 server_assets/scripts/base/SpawnPoint.py
 server_assets/scripts/base/Watcher.py
-server_assets/scripts/bots/Account.py
 server_assets/scripts/bots/Avatar.py
 server_assets/scripts/bots/components/Test.py
 server_assets/scripts/bots/components/TestNoBase.py
@@ -1681,7 +1673,6 @@ server_assets/scripts/bots/interfaces/State.py
 server_assets/scripts/bots/interfaces/Teleport.py
 server_assets/scripts/bots/items/__init__.py
 server_assets/scripts/bots/items/base/__init__.py
-server_assets/scripts/bots/kbemain.py
 server_assets/scripts/bots/Monster.py
 server_assets/scripts/bots/NPC.py
 server_assets/scripts/bots/quests/__init__.py
@@ -1719,7 +1710,6 @@ server_assets/scripts/cell/interfaces/State.py
 server_assets/scripts/cell/interfaces/Teleport.py
 server_assets/scripts/cell/items/__init__.py
 server_assets/scripts/cell/items/base/__init__.py
-server_assets/scripts/cell/kbemain.py
 server_assets/scripts/cell/Monster.py
 server_assets/scripts/cell/NPC.py
 server_assets/scripts/cell/quests/__init__.py
@@ -1735,10 +1725,8 @@ server_assets/scripts/cell/SpaceCenter.py
 server_assets/scripts/cell/SpaceContext.py
 server_assets/scripts/cell/SpaceDuplicate.py
 server_assets/scripts/cell/SpawnPoint.py
-server_assets/scripts/common/Functor.py
 server_assets/scripts/common/GlobalConst.py
 server_assets/scripts/common/GlobalDefine.py
-server_assets/scripts/common/KBEDebug.py
 server_assets/scripts/common/Math3D.py
 server_assets/scripts/common/skillbases/__init__.py
 server_assets/scripts/common/skillbases/SCObject.py
@@ -1749,8 +1737,6 @@ server_assets/scripts/data/d_entities.py
 server_assets/scripts/data/d_skills.py
 server_assets/scripts/data/d_spaces.py
 server_assets/scripts/data/d_spaces_spawns.py
-server_assets/scripts/db/kbemain.py
-server_assets/scripts/entities.xml
 server_assets/scripts/entity_defs/Account.def
 server_assets/scripts/entity_defs/Avatar.def
 server_assets/scripts/entity_defs/components/Test.def
@@ -1760,6 +1746,7 @@ server_assets/scripts/entity_defs/Gate.def
 server_assets/scripts/entity_defs/interfaces/AI.def
 server_assets/scripts/entity_defs/interfaces/Combat.def
 server_assets/scripts/entity_defs/interfaces/CombatPropertys.def
+# server_assets/scripts/entity_defs/interfaces/Character.def
 server_assets/scripts/entity_defs/interfaces/Dialog.def
 server_assets/scripts/entity_defs/interfaces/Flags.def
 server_assets/scripts/entity_defs/interfaces/GameObject.def
@@ -1776,19 +1763,9 @@ server_assets/scripts/entity_defs/SpaceCenter.def
 server_assets/scripts/entity_defs/SpaceDuplicate.def
 server_assets/scripts/entity_defs/Spaces.def
 server_assets/scripts/entity_defs/SpawnPoint.def
-server_assets/scripts/entity_defs/types.xml
-server_assets/scripts/interface/kbemain.py
-server_assets/scripts/interface/Poller.py
-server_assets/scripts/logger/kbemain.py
-server_assets/scripts/login/kbemain.py
 server_assets/scripts/server_common/SCDefine.py
 server_assets/scripts/user_type/AVATAR_DATA.py
 server_assets/scripts/user_type/AVATAR_INFOS.py
-server_assets/start_bots.bat
-server_assets/start_bots.sh
-server_assets/start_server.bat
-server_assets/start_server.sh
-server_assets/start_server_background.bat
 server_assets/watchlog.sh
 kbe/src/.vs/kbengine/v15/ipch/AutoPCH/471c34a9fd911d57/ENTITY.ipch
 kbe/src/.vs/kbengine/v15/ipch/AutoPCH/b896b0c04b83246f/PYPROFILE.ipch
